@@ -1,9 +1,3 @@
-{% if page.url contains "dossier" %}
-{% else %}
-<div data-sticky-container>
-  <div data-sticky data-options="marginTop:0;">
-{% endif %}
-
 <div data-sticky-container>
   <div data-sticky data-options="marginTop:0;">
 
@@ -17,9 +11,5 @@
 			{% include nav.html %}
       </ul>
     </div>
-
-{% if page.url contains "dossier" %}
-{% else %}
   </div>
 </div>
-{% endif %}
