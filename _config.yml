@@ -1,1 +1,54 @@
-theme: jekyll-theme-minimal
+# Title of your website
+title: 'Arlene J. Diaz, Ph.D.'
+
+# Title of your website
+subtitle: 'Associate Professor of History'
+
+# The slogan describes your website and is used on homepage in <title> and other important places
+# slogan: 'Balanced-case dossier in service and teaching for promotion to Clinical Associate Professor'
+
+# The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
+description: 'Arlene J. Diaz, Ph.D., Associate Professor of History'
+
+# The credits show up in the includes/_footer.html
+# Main author of the website
+# See > authors.yml
+
+author: Arlene J. Diaz
+
+# This URL is the main address for absolute links. Don't include a slash at the end.
+#
+url: ''
+baseurl: ''
+urlimg: '/assets/img/'
+destination: docs/
+permalink:   /:categories/:title/
+
+# email : 
+# twitter : 
+# github : 
+authorname : Arlene J. Diaz
+markdown : kramdown
+exclude :
+    - LICENSE
+    - README.md
+include: ['_pages']
+
+collections:
+#   category:
+#     output: true
+#     permalink: /:path:output_ext
+#     itemid: true
+#     itemlabel: true
+
+
+# This URL points directly to the images directory making
+# things easier to link to images in posts and templates. It needs a slash at the end.
+#
+# Example: <img src="{{ site.url }}{{ site.baseurl }}{{ site.urlimg }}{{ post.image.title }}" />
+# Markdown-Example for posts ![Image Text]({{ site.url }}{{ site.baseurl }}{{ site.urlimg }}image.jpg)
+#
+
+
+# google_analytics_tracking_id: UA-11680223-1
+

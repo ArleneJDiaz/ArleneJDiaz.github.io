@@ -1,0 +1,25 @@
+{% if page.url contains "dossier" %}
+{% else %}
+<div data-sticky-container>
+  <div data-sticky data-options="marginTop:0;">
+{% endif %}
+
+<div data-sticky-container>
+  <div data-sticky data-options="marginTop:0;">
+
+    <div class="title-bar" data-responsive-toggle="nav-menu" data-hide-for="large">
+      <div class="title-bar-title"><h4 class="title-bar-title font-heavy mas"><a href="{{ site.baseurl }}/">{{ site.title }}</a></h4></div><button class="menu-icon" type="button" data-toggle="nav-menu"></button>
+    </div>
+
+    <div class="top-bar" id="nav-menu">
+      <h4 class="title-bar-title font-heavy mas show-for-large"><a href="{{ site.baseurl }}/">{{ site.title }}</a></h4>
+      <ul class="vertical large-horizontal dropdown menu" data-responsive-menu="accordion large-dropdown"">
+			{% include nav.html %}
+      </ul>
+    </div>
+
+{% if page.url contains "dossier" %}
+{% else %}
+  </div>
+</div>
+{% endif %}
