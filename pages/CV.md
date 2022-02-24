@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Arlene J. Díaz"
+title: CV
 permalink: /CV/
-description: "Curriculum Vitae"
+description: "Arlene J. Díaz Curriculum Vitae"
 nav: true
 horizontal: false
 ---
