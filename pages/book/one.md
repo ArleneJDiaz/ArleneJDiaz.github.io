@@ -11,3 +11,5 @@ horizontal: false
 
 There are a bunch of images that go here.
 
+![Chapter One Heatmap](/assets/img/ChapterOneHeatmap.png)
+
